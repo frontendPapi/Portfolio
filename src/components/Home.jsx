@@ -5,15 +5,15 @@ function Home() {
   return (
     <div name="home" className="w-full h-screen bg-[#292929]">
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full ">
-        <p className="text-[#ED2939] text-[1.1rem]">Hi, my name is</p>
-        <h1 className="text-4xl sm:text-4xl font-bold text-[#f5f5f5]">
+        <p className="text-[#ED2939] text-[1.3rem]">Hi, my name is</p>
+        <h1 className="text-4xl sm:text-5xl font-bold text-[#f5f5f5]">
           Dejan Mihajlov
         </h1>
-        <h2 className="text-4xl sm:text-4xl font-bold text-[#787878]">
+        <h2 className="text-4xl sm:text-5xl font-bold text-[#787878]">
           I'am a Frontend Developer
         </h2>
-        <p className="text-[#787878] text-[1.1rem] py-4 max-w-[700px]">
-          I'am a Fronend Developer whit no experience who work on own small
+        <p className="text-[#787878] text-[1.3rem] py-4 max-w-[700px]">
+          I'am a Fronend Developer with no experience who work on own small
           project, iam looking for intership and start work on real projects.
         </p>
         <div>
