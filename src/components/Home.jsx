@@ -1,7 +1,8 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
+import {Link} from 'react-scroll'
 
-function Home() {
+function Home({handleClick}) {
   return (
     <div name="home" className="w-full h-screen bg-[#292929]">
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full ">
@@ -17,9 +18,12 @@ function Home() {
           project, iam looking for intership and start work on real projects.
         </p>
         <div>
-          <button className="text-[#f5f5f5] group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#ED2939] hover:border-[#ED2939]">View Work
+          <button className="text-[#f5f5f5] group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#ED2939] hover:border-[#ED2939]">
+          <Link onClick={handleClick} to="work" smooth={true} duration={500}>
+            Work
+          </Link>
             <span className="group-hover:rotate-90 duration-300">
-               <HiArrowNarrowRight className="ml-3 " />
+              <HiArrowNarrowRight className="ml-3 " />
             </span>
           </button>
         </div>
