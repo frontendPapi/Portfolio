@@ -17,7 +17,7 @@ function About() {
             <p>Hi. I'm Dejan, nice to meet you. Please take a look around.</p>
           </div>
           <div>
-            <p className="text-[1.3rem]">I start mu jurney with programing on 15.10.2021 in CodeAcademy. CodeAcademy have program for Frontend Developers with HTML, CSS, BootStrap, GIT, JavaScript and React.js. In this moment i'm certificate for Frontend Developer and i'm looking for intership and work on real projects.</p>
+            <p className="text-[1.3rem]">I start my journey with programming on 15.10.2021 in CodeAcademy. CodeAcademy has a program for Frontend Developers to learn HTML, CSS, BootStrap, GIT, JavaScript and React.js. In this moment I have a certificate for Frontend Developer and I'm looking for intership and work on real projects.</p>
           </div>
         </div>
       </div>
